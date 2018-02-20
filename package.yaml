@@ -21,12 +21,14 @@ description:         Please see the README on Github at <https://github.com/tomo
 
 dependencies:
 - base >= 4.7 && < 5
+- parsec
+- mtl
 
 library:
   source-dirs: src
 
 executables:
-  haskell-interpreter-exe:
+  scheme:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
